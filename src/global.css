@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    @apply bg-magnolia;
+  }
+}
